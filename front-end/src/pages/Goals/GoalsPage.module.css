@@ -1,0 +1,32 @@
+/* GoalsPage.module.css */
+.goalsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  height: calc(100vh - 5rem);
+  width: calc(
+    100% - 200px
+  ); /* Adjust width to cover the whole screen apart from 200px on the left */
+}
+
+h1 {
+  text-align: center;
+}
+
+.goalHeader {
+  margin-bottom: 3rem;
+}
+
+.overall {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Align content to the left */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.side {
+  width: 200px; /* Set the width of .side to 200px */
+}

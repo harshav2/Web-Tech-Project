@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 20px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  flex-direction: row; /* Add this line to display icon and text horizontally */
+}
+.link:hover {
+  background-color: rgb(0, 147, 238);
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background-color: rgb(0, 52, 100);
+  color: rgb(13, 94, 223);
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .sidebar {
+    width: 60px;
+  }
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* justify-content:; */
+}
+
+#overall {
+  padding-top: 30%;
+}

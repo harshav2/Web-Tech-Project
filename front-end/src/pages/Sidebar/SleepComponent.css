@@ -1,0 +1,15 @@
+/* SleepComponent.css */
+.overall {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  text-align: center;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.side-container {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
