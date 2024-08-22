@@ -31,4 +31,4 @@ npm start
 
 This will start the front-end on port 3000
 
-Note : Both the ports should be running at the same time
+Note : Both the ports should be running at the same time.
